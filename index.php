@@ -88,6 +88,99 @@
             </section>
 
             <br>
+            <!-- Formulario de Registro de Novo Usuário -->
+            <section class="row">
+                <div class="col-lg-4 offset-lg-4 bg-light rounded" id="caixaRegistro">
+                    <h2 class="text-center mt-2">Registrar-se</h2>
+                    <form action="#" method="post" role="form" class="p-2" id="formRegistro">
+
+                        <div class="form-group">
+                            <input type="text" 
+                                   name="nomeCompleto" 
+                                   class="form-control" 
+                                   placeholder="Nome completo" required
+                                   minlength="6">
+                        </div>
+
+                        <!-- Campo Nome do Usuário-->
+                        <div class="form-group">
+                            <input type="text" 
+                                   name="nomeUsuario"
+                                   class="form-control"
+                                   placeholder="Nome do Usuário" required
+                                   minlength="6">
+
+                        </div>
+
+                        <!-- Campo E-mail-->
+                        <div class="form-group">
+                            <input type="email" 
+                                   name="emailUsuario"
+                                   class="form-control"
+                                   placeholder="E-mail" required >
+                        </div>
+
+                        <!--Campo Senha-->
+                        <div class="form-group">
+                            <input type="password" 
+                                   id="senhaUsuario"
+                                   class="form-control"
+                                   placeholder="Senha" required
+                                   minlength="6">
+                        </div>
+
+                        <!-- Campo de confirmação de senha -->
+                        <div class="form-group">
+                            <input type="password" 
+                                   id="usuarioConfirmar"
+                                   name="senhaUsuarioConfirmar"
+                                   class="form-control"
+                                   placeholder="Confirmar a senha" required
+                                   minlength="6">
+                        </div>
+                        
+                        <!-- Checkbox de aceite dos termos -->
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"
+                                   name="concordar"
+                                   class="custom-control-input"
+                                   id="checkConcordar">
+                            <label for="checkConcordar"
+                                   class="custom-control-label">
+                                Eu concordo com os
+                                <a href="#">termos e condições</a>
+                            </label>
+                            </div>
+                        </div>
+                        
+                        <!-- botão enviar-->
+                        <div class="form-group">
+                            <input type="submit" 
+                                   name="btnRegistroUsuario"
+                                   id="btnRegistroUsuario"
+                                   value=":: Registrar ::"
+                                   class="btn btn-primary btn-block">
+                        </div>
+                        
+                        <!-- Já Registrado -->
+                        <div class="form-group">
+                            <p class="text-center">
+                                Já registrado?
+                                <a href="#"
+                                   id="btnEntrarRegistrado">
+                                       Entrar aqui.
+                                </a>
+                            </p>
+                            
+                        </div>
+                        
+                    </form>
+
+                </div>
+            </section>
+            <br>
+
             <!-- Formulário de Recuperação de senha -->
             <section class="row">
                 <div class="col-lg-4 offset-lg-4 bg-light rounded"
