@@ -6,3 +6,8 @@ Layout Bootstrap
 
 ## aula02 - 13 de junho de 2019
 Formulários e ~~validação~~
+
+
+## aula03 - 27 de junho de 2019
+Finalizar formulário de Registr, esconder e mostrar formulários
+e validação com JQuery.
